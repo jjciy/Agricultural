@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <typeAliases>
+        <typeAlias type="com.example.demo.model.User" alias="User"/>
+        <typeAlias type="com.example.demo.model.Video" alias="Video"/>
+        <typeAlias type="com.example.demo.model.Product" alias="Product"/>
+        <typeAlias type="com.example.demo.model.ProductAndVideo" alias="ProductAndVideo"/>
+        <typeAlias type="com.example.demo.model.AirHumidity" alias="AirHumidity"/>
+    </typeAliases>
+    <mappers>
+
+    </mappers>
+</configuration>
